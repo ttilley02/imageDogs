@@ -31,8 +31,6 @@ function displayResults(result) {
 })
 
 
-
-//$('.results-img').html(replacementsHtml);
 //display the results section
 $('.results').removeClass('hidden');
 }
