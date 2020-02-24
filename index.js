@@ -23,9 +23,9 @@ function displayResults(result) {
   $('img').html('');
   //creates dog collage for the nmber of dogs specified by the user
   let replacementsHtml= result.message;
-  replacementsHtml.forEach(function(img){
+  replacementsHtml.forEach(function(dogPicture){
   $('.results-img').append(
-    `<img src='${img}' class='doggy' alt='randomDogImage'>`
+    `<img src='${dogPicture}' class='doggy' alt='randomDogImage'>`
   
   )
 })
