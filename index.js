@@ -24,11 +24,10 @@ function displayResults(result) {
   //creates dog collage for the nmber of dogs specified by the user
   let replacementsHtml= result.message;
   replacementsHtml.forEach(function(dogPicture){
-  //$('.results-img').append(
-   // `<img src='${dogPicture}' class='doggy' alt='randomDogImage'>`
-  //
- // )
-  $('img').replaceWith(`<img src='${dogPicture}' class='results-img' alt='randomDogImage'>`)
+  $('.results-img').append(
+    `<img src='${dogPicture}' class='doggy' alt='randomDogImage'>`
+   )
+ 
 })
 
 
