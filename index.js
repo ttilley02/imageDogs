@@ -25,7 +25,8 @@ function displayResults(result) {
   let replacementsHtml= result.message;
   replacementsHtml.forEach(function(img){
   $('.results-img').append(
-    `<img src="${img}" class='randomDoggy' alt='randomDogImage'>`
+    `<img src='${img}' class='doggy' alt='randomDogImage'>`
+  
   )
 })
 
