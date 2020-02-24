@@ -1,6 +1,7 @@
+  
 * {
   box-sizing: border-box;
- 
+  background-color: rgb(187, 185, 185);
   
 }
 
@@ -17,3 +18,8 @@ body {
   display: none;
 }
 
+img {
+display: flex;
+flex-direction: column;
+border-radius: 2%;
+}
